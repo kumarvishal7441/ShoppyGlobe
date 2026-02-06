@@ -7,7 +7,7 @@ function ProductList() {
   const [allBookarr,setallBookarr]=useState(data);
   useEffect(()=>{
     if(data&&data.length){
-      console.log(setallBookarr(data));
+      setallBookarr(data);
     }
   },[data])
  
